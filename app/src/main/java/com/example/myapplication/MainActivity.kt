@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         val list = listOf(10, 12, 5, 13, 66, 83, 72, 18, 44, 34, 90)
         val list1 = listOf(1, 2, 3, 4, 6, 7, 8)
-        applicationContext.showToast(MathUtil.findTheMissingNumberUnsorted(list1))
+        applicationContext.showToast("isPalindrome : ${StringUtils.isPalindrome("radar".toCharArray())}")
     }
 }
 
